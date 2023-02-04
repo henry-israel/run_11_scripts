@@ -1,0 +1,60 @@
+~~~~~~~~~~~~~~~~~~~~~~~
+Starting spline generation using /data/t2k/OA/inputs_OA2023/weights/t2ksk19b.fqv4r0b.21bv2_run11.fhc.numubar_x_numubar_cc1piselec_weights.root and selection cc1pi
+Using nue selection
+Creating splines with nue binning
+Size of systProps is 41
+XsecVary20192D constructor with sampletype = 0
+MaCCQE_tree
+CA5RES_tree
+MaRES_tree
+MECTwkDial_2p2hEdep_lowEnu_tree
+MECTwkDial_2p2hEdep_highEnu_tree
+MECTwkDial_2p2hEdep_lowEnubar_tree
+MECTwkDial_2p2hEdep_highEnubar_tree
+PionFSI_QELowMomProb_tree
+PionFSI_AbsProb_tree
+PionFSI_CExLowMomProb_tree
+PionFSI_QEHighMomProb_tree
+PionFSI_InelProb_tree
+DIS_BY_corr_on_off_tree
+MultiPi_BY_corr_on_off_tree
+MultiPi_Multiplicity_TotXSec_tree
+BgSclLMCPiBarRES_tree
+BgSclRES_tree
+QETwk_HighQ2Weight_1_tree
+QETwk_HighQ2Weight_2_tree
+QETwk_HighQ2Weight_3_tree
+PionFSI_CExHighMomProb_tree
+TwkDial_FateNucleonFSI_tree
+SF_P1_2Shell_MeanF_Norm_O_tree
+SF_P3_2Shell_MeanF_Norm_O_tree
+SF_SShell_MeanF_Norm_O_tree
+SF_SRC_Norm_O_tree
+SF_P1_2Shell_MeanF_PMissShape_O_tree
+SF_P3_2Shell_MeanF_PMissShape_O_tree
+SF_SShell_MeanF_PMissShape_O_tree
+SF_PBTwkDial_Hybrid_O16_nu_tree
+SF_PBTwkDial_Hybrid_O16_nubar_tree
+SF_OptPotTwkDial_O16_tree
+RES_Eb_O_numu_tree
+RES_Eb_O_numubar_tree
+MDLSPiEj_tree
+MultiPi_BY_Vector_tree
+MultiPi_BY_Axial_tree
+MultiPi_Multiplicity_Shape_tree
+MECTwkDial_PNNN_Shape_tree
+MECTwkDial_PDDWeight_O16_np_tree
+MECTwkDial_PDDWeight_O16_NN_tree
+numSplines = 146Number of true energy bins: 5.
+True energy bins: {0, 0.7, 1, 1.5, 2.5, 30}
+Number of var1nue bins: 25.
+Reco energy bins: {0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.05, 1.1, 1.15, 1.2, 1.25}
+Number of var2nue bins: 15.
+Reco energy bins: {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 180}
+Binning implemented successfully
+Making variations for Nue splines
+With the current code, this doesn't actually mean anything!
+Filling splines...
+Finished making splines!
+Writing splines.
+File closed.

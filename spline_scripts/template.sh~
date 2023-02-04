@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source /home/osullivan/Software/root/bin/thisroot.sh
+cd /home/israel/t2ksft/ReWeightNEW/XsecResponse
+
+source setup.sh
+
+EXECUTABLE

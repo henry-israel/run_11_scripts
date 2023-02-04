@@ -1,0 +1,139 @@
+Adding Emiss to /data/t2k/OA/inputs_OA2023/Minituples_21b_Run11_310123/t2ksk19b.fqv4r0b.21bv2_run11.rhc.nue_x_nue_numuselec.root
+cloning tree and excluding existing branch
+Number of events: 735
+Initializing with /home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card
+ CRSPATH_ENV: /opt/neut/oa2021_r5/share/neut/crsdat
+ Reading /home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card as card
+ ======= CONFIGURATION FOR INTERACTIONS =======
+ Reading/home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card as a card file.
+ Using Spectral Function for elastic events
+ NECARD : INPUTTED PARAMETER 
+ NECARD : CRSPATH= /cvmfs/t2k.egi.eu/NEUT5.4.0/5.4.0/src/crsdat/
+ NECARD : FERM   =            0
+ NECARD : PAUL   =            0
+ NECARD : NEFF   =            0
+ NECARD : NUCDEXITE =            1
+ NECARD : MODL   =            1
+ NECARD : MODH   =            1
+ NECARD : KINH   =            1
+ NECARD : MODE   =            0
+ NECARD : COHEPI =            2
+ NECARD : DIFPI  =            0
+ ********* CCQE SETTINGS ***************
+ NECARD : MDLQE   =          402
+ NECARD : MDLQEAF =            1
+ NECARD : MDL2P2H =            1
+ NECARD : MAQE    =    1.21000004    
+ NECARD : AXFFALPHA =  0.230000004    
+ NECARD : AXFFBETA=   1.22000003    
+ NECARD : AXFFGAMMA=  0.439999998    
+ NECARD : AXFFTHETA= -0.259999990    
+ NECARD : AXZEXPQ4=           0
+ NECARD : AXZEXPNT=           8
+ NECARD : AXZEXPT0= -0.280000001    
+ NECARD : AXZEXPTC=  0.176400006    
+ NECARD : AXZEXPA0=  0.500000000    
+ NECARD : AXZEXPA1=   2.27999997    
+ NECARD : AXZEXPA2=  0.259999990    
+ NECARD : AXZEXPA3=  -5.19999981    
+ NECARD : AXZEXPA4=   2.59999990    
+ NECARD : AXZEXPA5=  0.500000000    
+ NECARD : AXZEXPA6=  0.500000000    
+ NECARD : AXZEXPA7=  0.500000000    
+ NECARD : AXZEXPA8=  0.500000000    
+ NECARD : AXZEXPA9=  0.500000000    
+ NECARD : MVQE   =   0.839999974    
+ NECARD : KAPP   =    1.00000000    
+ NECARD : SCCFV     =    0.00000000    
+ NECARD : SCCFA     =    0.00000000    
+ NECARD : FPQE      =    1.00000000    
+ NECARD : PFSF      =   -1.00000000    
+ NECARD : IRADCORR  =            0
+ NECARD : IPILESSDCY=            0
+ NECARD : RPILESSDCY=    0.00000000    
+ NECARD : MANCEL =    1.21000004    
+ ********** SINGLE PION ***************
+ NECARD : IFF       =            1
+ NECARD : NRTYPE    =            0
+ NECARD : MDLSPIEJ  =            3
+ NECARD : MDLSPI    =            1
+ NECARD : MARSRES   =    1.21000004    
+ NECARD : MANFFRES  =   0.949999988    
+ NECARD : MABKGM    =    1.02999997    
+ NECARD : CA5       =    1.00999999    
+ NECARD : BGSCL     =    1.29999995    
+ NECARD : MVRSRES   =   0.839999974    
+ NECARD : MVNFFRES  =   0.839999974    
+ ********* MULTIPI SETTINGS ***************
+ NECARD : PDF    =           12
+ NECARD : BODEK  =            1
+ NECARD : MULT   =            0
+ NECARD : BYLW   =            0
+ NECARD : BYFORCET1   =            0
+ ********** COHERENT *************
+ NECARD : COHEPI   =            2
+ NECARD : MACOH    =    1.00000000    
+ NECARD : R0COH    =    1.00000000    
+ NECARD : A1COHerr =    0.00000000    
+ NECARD : b1COHerr =    0.00000000    
+ NECARD : XMADIF   =    1.10000002    
+ NECARD : NUCVOLDIF=    7.00000000    
+ ======= PION FSI =======
+ NECARD : FEFQE     =    1.06900001    
+ NECARD : FEFQEH    =    1.82400000    
+ NECARD : FEFINEL   =    1.00199997    
+ NECARD : FEFABS    =    1.40400004    
+ NECARD : FEFCOH    =    1.00000000    
+ NECARD : FEFCX     =   0.697000027    
+ NECARD : FEFCXH    =    1.79999995    
+ NECARD : FEFCXHF   =    0.00000000    
+ NECARD : FEFQEHF   =    1.00000000    
+ NECARD : FEFCOHF   =    0.00000000    
+ NECARD : FEFCOUL   =    0.00000000    
+ NECARD : FEFALL    =    1.00000000    
+ NECARD : NUCEFF KINEMATICS VERSION  =            0
+ NECARD :Generating RANDOM SEED
+ RANLUX LUXURY LEVEL SET BY RLUXGO : 3     P= 223
+ RANLUX INITIALIZED BY RLUXGO FROM SEEDS    88913196           0           0
+ RM48 INITIALIZED:1959889558           0         0
+ ======= CONFIGURATION FOR TARGET MATERIAL =======
+ NECARD : NUMBNDN =            8
+ NECARD : NUMBNDP =            8
+ NECARD : NUMFREP =            2
+ NECARD : NUMATOM =           16
+ NECARD : PFSURF =   0.224999994    
+ NECARD : PFMAX  =   0.224999994    
+ NECARD : VNUINI =   -2.65650749E-02
+ NECARD : VNUFIN =    0.00000000    
+ NECARD : SFEBSHIFT =    0.00000000    
+ NECARD : IFORMLEN =          110
+ NECARD : FZMU2 =    7.99999982E-02
+ NECARD : ABSPIEMIT =            1
+ NECARD : NUSIM =            1
+ NECARD : QUIET =            2
+ Reading /home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card as card
+ ======= CONFIGURATION FOR INTERACTIONS =======
+ Reading/home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card as a card file.
+ NUCRES : INPUTTED PARAMETER 
+ NUCRES : RESCAT   =            1  0: off, 1: on
+ NUCRES : XNUCELAFACT =    1.00000000    
+ NUCRES : XNUCSPIFACT =    1.00000000    
+ NUCRES : XNUCDPIFACT =    1.00000000    
+ NUCRES : XNUCFACT =    1.00000000    
+ NUCRES : NUCRESFLG=            2
+
+ Reading /home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card as card
+ Reading/home/israel/t2ksft/ReWeightNEW/OAGenWeightsApps-1/build/Linux/var/OAGenWeightsApps/config/neut_cards/neut.d.card as a card file.
+ TMPFILE: /tmp/pid0193647.tmp                     
+Total events : 735
+Emiss added!
+ NECARDEV : INPUTTED PARAMETER 
+ NECARDEV : NEV  =      1000000
+ NECARDEV : IDPT =          -14
+ NECARDEV : MPOS =            2
+ NECARDEV : RAD =    100.000000    
+ NECARDEV : MDIR =            1
+ NECARDEV : DIR =    0.00000000       0.00000000       1.00000000    
+ NECARDEV : MPV  =            1
+ NECARDEV : PV  =    600.000000    
+ Writing output vector in neutvect format

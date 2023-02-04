@@ -1,0 +1,3 @@
+apply_multiringcut -> Applies multi-ring cut to mtuples
+validate_mtuples -> Checks cuts applied correectly
+check_mtuple_branches -> compares 2 mtuples for differences

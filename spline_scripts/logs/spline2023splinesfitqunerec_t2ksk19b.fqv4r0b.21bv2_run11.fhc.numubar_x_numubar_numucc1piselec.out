@@ -1,0 +1,111 @@
+~~~~~~~~~~~~~~~~~~~~~~~
+Starting spline generation using /data/t2k/OA/inputs_OA2023/weights/t2ksk19b.fqv4r0b.21bv2_run11.fhc.numubar_x_numubar_numucc1piselec_weights.root and selection numucc1pi
+Detected from filename: Numode = 1
+Using numu selection
+hrecoe_0
+0x29c3330
+hrecoe_0
+41
+Creating splines with numu erec binning
+Found 1 SK erec binning templates
+XsecVary2019 constructor with sampletype = 1
+MaCCQE_tree
+CA5RES_tree
+MaRES_tree
+MECTwkDial_2p2hEdep_lowEnu_tree
+MECTwkDial_2p2hEdep_highEnu_tree
+MECTwkDial_2p2hEdep_lowEnubar_tree
+MECTwkDial_2p2hEdep_highEnubar_tree
+PionFSI_QELowMomProb_tree
+PionFSI_AbsProb_tree
+PionFSI_CExLowMomProb_tree
+PionFSI_QEHighMomProb_tree
+PionFSI_InelProb_tree
+DIS_BY_corr_on_off_tree
+MultiPi_BY_corr_on_off_tree
+MultiPi_Multiplicity_TotXSec_tree
+BgSclLMCPiBarRES_tree
+BgSclRES_tree
+QETwk_HighQ2Weight_1_tree
+QETwk_HighQ2Weight_2_tree
+QETwk_HighQ2Weight_3_tree
+PionFSI_CExHighMomProb_tree
+TwkDial_FateNucleonFSI_tree
+SF_P1_2Shell_MeanF_Norm_O_tree
+SF_P3_2Shell_MeanF_Norm_O_tree
+SF_SShell_MeanF_Norm_O_tree
+SF_SRC_Norm_O_tree
+SF_P1_2Shell_MeanF_PMissShape_O_tree
+SF_P3_2Shell_MeanF_PMissShape_O_tree
+SF_SShell_MeanF_PMissShape_O_tree
+SF_PBTwkDial_Hybrid_O16_nu_tree
+SF_PBTwkDial_Hybrid_O16_nubar_tree
+SF_OptPotTwkDial_O16_tree
+RES_Eb_O_numu_tree
+RES_Eb_O_numubar_tree
+MDLSPiEj_tree
+MultiPi_BY_Vector_tree
+MultiPi_BY_Axial_tree
+MultiPi_Multiplicity_Shape_tree
+MECTwkDial_PNNN_Shape_tree
+MECTwkDial_PDDWeight_O16_np_tree
+MECTwkDial_PDDWeight_O16_NN_tree
+Number of true energy bins: 5.
+True energy bins: {0, 0.7, 1, 1.5, 2.5, 30}
+Number of reco energy bins: 41.
+Reco energy bins: {0, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3500, 4000, 5000, 7000, 10000, 30000}
+Binning implemented successfully
+Making variations for Numu splines
+With the current code, this doesn't actually mean anything!
+erec-5072.92
+erec-39244.6
+weight -492.289, wgtflux 4124.35, wgtosc 0.809737, xsec_weight -0.147408, pnu[0]: 2.0959, Erec: 1749.42, mode: -21
+erec-16022.5
+weight -315.588, wgtflux 1811.71, wgtosc 0.900832, xsec_weight -0.19337, pnu[0]: 2.95306, Erec: 1952.98, mode: -21
+weight -537.065, wgtflux 4124.35, wgtosc 0.797412, xsec_weight -0.163301, pnu[0]: 2.02625, Erec: 1735.06, mode: -21
+erec-11367.8
+weight -4305.27, wgtflux 12240.1, wgtosc 0.487785, xsec_weight -0.721089, pnu[0]: 1.18584, Erec: 1016.45, mode: -21
+weight -347.157, wgtflux 2192.22, wgtosc 0.876009, xsec_weight -0.180773, pnu[0]: 2.62906, Erec: 1708.46, mode: -21
+erec-2079.36
+weight -1678.78, wgtflux 3010.48, wgtosc 0.845569, xsec_weight -0.65949, pnu[0]: 2.34242, Erec: 1876.83, mode: -21
+erec-3801.07
+weight -86.8817, wgtflux 1039.23, wgtosc 0.928801, xsec_weight -0.0900104, pnu[0]: 3.50256, Erec: 2706.39, mode: -21
+weight -187.234, wgtflux 2628.94, wgtosc 0.859445, xsec_weight -0.0828682, pnu[0]: 2.46172, Erec: 2153.15, mode: -21
+erec-35931.3
+erec-4915.18
+erec-25218.9
+weight -5062.43, wgtflux 1521.94, wgtosc 0.9052, xsec_weight -3.67465, pnu[0]: 3.0227, Erec: 2880.95, mode: -21
+weight -1842.38, wgtflux 1521.94, wgtosc 0.9052, xsec_weight -1.33732, pnu[0]: 3.0227, Erec: 2880.95, mode: -21
+weight -452.875, wgtflux 12240.1, wgtosc 0.484617, xsec_weight -0.0763479, pnu[0]: 1.18114, Erec: 950.379, mode: -21
+erec-5852.84
+weight -3046.98, wgtflux 6155.42, wgtosc 0.693334, xsec_weight -0.713953, pnu[0]: 1.61182, Erec: 1291.03, mode: -21
+erec-80306.4
+erec-336471
+weight -411.787, wgtflux 6915.32, wgtosc 0.663974, xsec_weight -0.0896828, pnu[0]: 1.52984, Erec: 875.741, mode: -21
+weight -372.707, wgtflux 2192.22, wgtosc 0.876688, xsec_weight -0.193928, pnu[0]: 2.63662, Erec: 2365.69, mode: -21
+erec-8104.5
+weight -2322.37, wgtflux 7931.61, wgtosc 0.615296, xsec_weight -0.475867, pnu[0]: 1.41382, Erec: 1097.8, mode: -21
+weight -2268.79, wgtflux 4561.3, wgtosc 0.781488, xsec_weight -0.636478, pnu[0]: 1.94488, Erec: 1810, mode: -21
+erec-647.596
+erec-18244.5
+erec-21475.9
+weight -1194.07, wgtflux 1521.94, wgtosc 0.906544, xsec_weight -0.865453, pnu[0]: 3.0451, Erec: 2738.16, mode: -21
+erec-2509.63
+erec-5321.85
+erec-6666.62
+erec-4334.24
+erec-16298.3
+erec-2326.29
+weight -924.997, wgtflux 1279.51, wgtosc 0.921457, xsec_weight -0.784552, pnu[0]: 3.33047, Erec: 2415.67, mode: -21
+weight -501.076, wgtflux 5046, wgtosc 0.76566, xsec_weight -0.129694, pnu[0]: 1.87207, Erec: 1405.33, mode: -21
+weight -316.087, wgtflux 1811.71, wgtosc 0.901381, xsec_weight -0.193558, pnu[0]: 2.96156, Erec: 2437.8, mode: -21
+erec-5694.46
+erec-466300
+erec-11742.5
+Filling splines...
+Finished making splines! Exit.
+Writing splines.
+File closed.
+Deleting splines 
+Deleting graphs 
+Deleting histograms 

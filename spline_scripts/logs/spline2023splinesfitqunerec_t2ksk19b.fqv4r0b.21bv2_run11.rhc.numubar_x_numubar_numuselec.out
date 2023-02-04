@@ -1,0 +1,85 @@
+~~~~~~~~~~~~~~~~~~~~~~~
+Starting spline generation using /data/t2k/OA/inputs_OA2023/weights/t2ksk19b.fqv4r0b.21bv2_run11.rhc.numubar_x_numubar_numuselec_weights.root and selection numu
+Detected from filename: Numode = 0
+Using numu selection
+hrecoe_0
+0x1696330
+hrecoe_0
+41
+Creating splines with numu erec binning
+Found 1 SK erec binning templates
+XsecVary2019 constructor with sampletype = 1
+MaCCQE_tree
+CA5RES_tree
+MaRES_tree
+MECTwkDial_2p2hEdep_lowEnu_tree
+MECTwkDial_2p2hEdep_highEnu_tree
+MECTwkDial_2p2hEdep_lowEnubar_tree
+MECTwkDial_2p2hEdep_highEnubar_tree
+PionFSI_QELowMomProb_tree
+PionFSI_AbsProb_tree
+PionFSI_CExLowMomProb_tree
+PionFSI_QEHighMomProb_tree
+PionFSI_InelProb_tree
+DIS_BY_corr_on_off_tree
+MultiPi_BY_corr_on_off_tree
+MultiPi_Multiplicity_TotXSec_tree
+BgSclLMCPiBarRES_tree
+BgSclRES_tree
+QETwk_HighQ2Weight_1_tree
+QETwk_HighQ2Weight_2_tree
+QETwk_HighQ2Weight_3_tree
+PionFSI_CExHighMomProb_tree
+TwkDial_FateNucleonFSI_tree
+SF_P1_2Shell_MeanF_Norm_O_tree
+SF_P3_2Shell_MeanF_Norm_O_tree
+SF_SShell_MeanF_Norm_O_tree
+SF_SRC_Norm_O_tree
+SF_P1_2Shell_MeanF_PMissShape_O_tree
+SF_P3_2Shell_MeanF_PMissShape_O_tree
+SF_SShell_MeanF_PMissShape_O_tree
+SF_PBTwkDial_Hybrid_O16_nu_tree
+SF_PBTwkDial_Hybrid_O16_nubar_tree
+SF_OptPotTwkDial_O16_tree
+RES_Eb_O_numu_tree
+RES_Eb_O_numubar_tree
+MDLSPiEj_tree
+MultiPi_BY_Vector_tree
+MultiPi_BY_Axial_tree
+MultiPi_Multiplicity_Shape_tree
+MECTwkDial_PNNN_Shape_tree
+MECTwkDial_PDDWeight_O16_np_tree
+MECTwkDial_PDDWeight_O16_NN_tree
+Number of true energy bins: 11.
+True energy bins: {0, 0.4, 0.5, 0.6, 0.7, 1, 1.5, 2.5, 3.5, 5, 7, 30}
+Number of reco energy bins: 41.
+Reco energy bins: {0, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3500, 4000, 5000, 7000, 10000, 30000}
+Binning implemented successfully
+Making variations for Numu splines
+With the current code, this doesn't actually mean anything!
+weight -309.533, wgtflux 3700.38, wgtosc 0.926416, xsec_weight -0.0902931, pnu[0]: 3.44388, Erec: 2979.06, mode: -21
+weight -0.388758, wgtflux 979756, wgtosc 0.00151825, xsec_weight -0.000261347, pnu[0]: 0.596545, Erec: 649.889, mode: -1
+erec-15712.7
+weight -482.138, wgtflux 767491, wgtosc 0.0487165, xsec_weight -0.012895, pnu[0]: 0.700562, Erec: 686.324, mode: -1
+weight -41.3068, wgtflux 756806, wgtosc 0.167928, xsec_weight -0.000325022, pnu[0]: 0.475128, Erec: 927.447, mode: -1
+weight -150.381, wgtflux 968904, wgtosc 0.0247918, xsec_weight -0.00626044, pnu[0]: 0.548675, Erec: 865.67, mode: -1
+weight -112.951, wgtflux 976505, wgtosc 0.0027633, xsec_weight -0.0418589, pnu[0]: 0.617742, Erec: 621.805, mode: -1
+weight -1247.82, wgtflux 925263, wgtosc 0.0548195, xsec_weight -0.0246009, pnu[0]: 0.524453, Erec: 745.223, mode: -1
+erec-9837.73
+weight -1837.2, wgtflux 2347.28, wgtosc 0.948745, xsec_weight -0.824978, pnu[0]: 4.14258, Erec: 3686.26, mode: -21
+weight -3.69213, wgtflux 982658, wgtosc 0.0012824, xsec_weight -0.0029299, pnu[0]: 0.60122, Erec: 805.158, mode: -1
+weight -1829.58, wgtflux 886741, wgtosc 0.0277458, xsec_weight -0.0743631, pnu[0]: 0.672584, Erec: 611.607, mode: -1
+weight -211.17, wgtflux 990557, wgtosc 0.00637939, xsec_weight -0.0334175, pnu[0]: 0.576252, Erec: 699.939, mode: -1
+weight -1250.41, wgtflux 767491, wgtosc 0.0514418, xsec_weight -0.0316712, pnu[0]: 0.70386, Erec: 621.872, mode: -1
+weight -164.539, wgtflux 952866, wgtosc 0.0103916, xsec_weight -0.0166171, pnu[0]: 0.641641, Erec: 530.245, mode: -1
+weight -13463.8, wgtflux 4107.9, wgtosc 0.922069, xsec_weight -3.55457, pnu[0]: 3.34388, Erec: 2780.41, mode: -21
+weight -4838.04, wgtflux 4107.9, wgtosc 0.922069, xsec_weight -1.27728, pnu[0]: 3.34388, Erec: 2780.41, mode: -21
+weight -416.551, wgtflux 984851, wgtosc 0.0127366, xsec_weight -0.0332081, pnu[0]: 0.563961, Erec: 771.969, mode: -1
+weight -146.299, wgtflux 976505, wgtosc 0.00216267, xsec_weight -0.0692749, pnu[0]: 0.61422, Erec: 678.6, mode: -1
+Filling splines...
+Finished making splines! Exit.
+Writing splines.
+File closed.
+Deleting splines 
+Deleting graphs 
+Deleting histograms 

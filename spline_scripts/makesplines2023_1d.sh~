@@ -1,0 +1,70 @@
+#!/bin/bash
+
+weightfolder=/data/t2k/OA/inputs_OA2023/weights
+weightsuffix=weights
+outfolder=/data/t2k/OA/inputs_OA2023/splines/
+#!!CHANGE TaHESE TWO EACH
+splineprefix=2023splinesfitqun #!!CHANGE THESE TWO EACH TIME
+#mtuplefolder=/data/israel/Minituples_21b_09072021
+mtuplefolder=/data/t2k/OA/inputs_OA2023/Minituples_21b_Run11_310123/
+mtupleprefix=t2ksk19b.fqv4r0b.21bv2_run11
+isfitqun="true"
+
+SCRIPTDIR=$(pwd)/scripts
+LOGDIR=$(pwd)/logs
+mkdir -p $SCRIPTDIR $outfolder $LOGDIR
+
+for horncurrent in fhc rhc
+do 
+    for flavour1 in numu nue
+    do
+	for flavour2 in nue numu
+	do
+	    for sel in numucc1pi numu  #numucc1pi1de numucc1pi1de nue numu cc1pi
+	    do
+		if [[ -f ${weightfolder}/${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec_${weightsuffix}.root ]]
+		then
+
+			if [[ $flavour1==combined ]]
+			then
+				bar=""
+			else
+				bar="bar"
+			fi
+
+		    numtuple=${mtuplefolder}/${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec.root 
+		    nubarmtuple=${mtuplefolder}/${mtupleprefix}.${horncurrent}.${flavour1}${bar}_x_${flavour2}bar_${sel}selec.root
+
+		    nuweight=${weightfolder}/${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec_${weightsuffix}.root
+		    nubarweight=${weightfolder}/${mtupleprefix}.${horncurrent}.${flavour1}${bar}_x_${flavour2}bar_${sel}selec_${weightsuffix}.root
+
+		    nuout=$outfolder/spline${splineprefix}Pre_${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec.root
+		    nubarout=$outfolder/spline${splineprefix}Pre_${mtupleprefix}.${horncurrent}.${flavour1}${bar}_x_${flavour2}bar_${sel}selec.root
+
+		    nufile=${SCRIPTDIR}/spline${splineprefix}erectheta_${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec.sh
+		    nubarfile=${SCRIPTDIR}/spline${splineprefix}erectheta_${mtupleprefix}.${horncurrent}.${flavour1}${bar}_x_${flavour2}bar_${sel}selec.sh
+		    
+		    #1D
+		    #nu
+		    nuexe="./bin/make_xsec_response_2021_1d -w ${nuweight} -m ${numtuple} -o ${nuout} -selec $sel -f $isfitqun"
+		    
+		    #nubar
+		    nubarexe="./bin/make_xsec_response_2021_1d -w ${nubarweight} -m ${nubarmtuple} -o ${nubarout} -selec $sel -f $isfitqun"
+		    
+
+		    cp /home/israel/t2ksft/ReWeightNEW/XsecResponse/scripts/template.sh ${nufile}
+		    cp /home/israel/t2ksft/ReWeightNEW/XsecResponse/scripts/template.sh ${nubarfile}
+		    
+		    sed -i "s|EXECUTABLE|${nuexe}|g" "$nufile"
+		    sed -i "s|EXECUTABLE|${nubarexe}|g" "$nubarfile"
+
+		    condor_qsub $nufile -o ${LOGDIR}/spline${splineprefix}erec_${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec.out -e ${LOGDIR}/spline${splineprefix}erec_${mtupleprefix}.${horncurrent}.${flavour1}_x_${flavour2}_${sel}selec.err
+
+		    condor_qsub $nubarfile -o ${LOGDIR}/spline${splineprefix}erec_${mtupleprefix}.${horncurrent}.${flavour1}${bar}_x_${flavour2}bar_${sel}selec.out -e ${LOGDIR}/spline${splineprefix}erec_${mtupleprefix}.${horncurrent}.${flavour1}${bar}_x_${flavour2}bar_${sel}selec.err
+
+
+		fi
+	    done
+	done
+    done
+done
