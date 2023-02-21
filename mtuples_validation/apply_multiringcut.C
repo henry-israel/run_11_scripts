@@ -7,12 +7,12 @@ void apply_multiringcut(TString in_file_name){
     in_file->cd();
     copy_tree->Write();
     int iclass;
-    float fqevis, fmreloss, fqmreloss;
+    float fqevis, fqmreloss, fqmreloss;
     int ipp;
 
     mtuple->SetBranchAddress("iclass", iclass);
     mtuple->SetBranchAddress("fqevis", fqevis);
-    mtuple->SetBranchAddress("fmreloss", fmreloss);
+    mtuple->SetBranchAddress("fqmreloss", fqmreloss);
     mtuple->SetBranchAddress("fqmreloss", fqmreloss);
     mtuple->SetBranchAddress("ipp", ipp);
 
